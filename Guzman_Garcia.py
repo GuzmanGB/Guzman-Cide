@@ -12,7 +12,7 @@ def insertar_contacto():
         telefono = input("Ingrese el número de teléfono: ")
     else:
         agenda[nombre] = telefono
-        print("Contacto ", nombre, "con número" , telefono , " agregado exitosamente")
+        print("Contacto ", nombre, " con número" , telefono , " agregado exitosamente")
 
 def validar_numero(telefono):
         if telefono.isdigit() and 1 <= len(telefono) <= 11:
